@@ -1,10 +1,11 @@
 {
-  "name": "virgo-trans",
+  "name": "virgo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng deploy --repo=https://github.com/transauto/virgo.git --name=transauto --email=virgo3999601@gmail.com",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -20,6 +21,7 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "angular-cli-ghpages": "^0.5.3",
     "core-js": "^2.5.4",
     "ngx-google-map": "^1.0.0",
     "rxjs": "~6.3.3",
