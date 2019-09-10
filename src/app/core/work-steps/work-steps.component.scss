@@ -1,0 +1,57 @@
+:host {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0;
+
+  .work-step {
+    display: flex;
+    flex-direction: column;
+
+    &-header {
+      margin: 20px 0;
+      font-size: 30px;
+      font-weight: 500; 
+      text-align: center;
+    }
+
+    &-wrapper {
+      width: 70vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .next-stage-arrow {
+        width: 60px;
+        height: 60px;
+        margin-top: -60px;
+
+        .arrow-image {
+          width: inherit;
+          height: inherit;
+        }
+      }
+    }
+
+    &-image {
+      width: 220px;
+      height: 220px;
+      margin-bottom: 15px;
+
+      .step-image {
+        width: inherit;
+        height: inherit;
+        border-radius: 110px;
+      }
+    }
+
+    &-text {
+      width: 220px;
+      color: #0095e5;
+      font-size: 26px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}
