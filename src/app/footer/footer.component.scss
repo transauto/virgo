@@ -1,0 +1,66 @@
+:host {
+  height: 270px;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  background-color: #1b1b1f;
+
+  .footer-wrapper {
+    flex: 1;
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    justify-content: center;
+
+    .work-time {
+      margin: 0 60px;
+      display: flex;
+      flex-direction: column;
+
+      .header {
+        font-size: 30px;
+        margin: 0 15px;
+      }
+
+      .content {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .contacts-item {
+          margin: 5px;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .contacts {
+      margin: 0 60px;
+      display: flex;
+      flex-direction: column;
+
+      .header {
+        font-size: 30px;
+        margin: 0 15px;
+      }
+
+      .content {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .contact,
+        .mail {
+          margin: 5px;
+          font-size: 20px;
+          font-weight: 500;
+          color: #0195e5;
+        }
+
+        .mail {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
